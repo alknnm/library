@@ -10,14 +10,14 @@
 </head>
 <body>
     <!--top menu start-->
-    <nav class="navbar navbar-expand-lg bg-light sticky-top container">
+    <nav class="navbar navbar-expand-lg bg-light sticky-top">
         <div class="container">
           <a class="navbar-brand" href="#">
             <img src="images/logo.png" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Главная</a>
@@ -70,32 +70,139 @@
     <!-- corousel end -->
 
     <!-- card start -->
-    <div class="container" id="cards">
-        <div class="row">
-    <div class="card col-md-4 col-sm-12">
-        <img src="images/pic-01.png" class="cardmg-top" alt="...">
-        <div class="card-body">
-            <h3 class="card-title">Искусство</h3>
-          <p class="card-text">Увлекаетесь искусством? Для вас создан целый раздел книг, посвященный этой теме</p>
+      <div class="container" id="cards">
+        <div class="row mt-5 mb-5">
+          <div class="col-md-4 col-sm-12">
+            <div class="card">
+              <img src="images/pic-01.png" alt="pic-01">
+              <div class="card-body">
+                <h3 class="card-title text-uppercase">Искусство</h3>
+                <p class="card-text">Увлекаетесь искусством? Для вас создан целый раздел книг, посвященный этой теме</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <div class="card">
+              <img src="images/pic-02.png" alt="pic-02">
+              <div class="card-body">
+                <h3 class="card-title text-uppercase">Точные науки</h3>
+                <p class="card-text">Математика, физика, химия...Весь материал собран на портале "Электронная библиотека</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <div class="card">
+              <img src="images/pic-03.png" alt="pic-03">
+              <div class="card-body">
+                <h3 class="card-title text-uppercase">Иллюстрации</h3>
+                <p class="card-text">Интересна фотография? Загляните к нам и оцените труды мировых фотографов</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="card col-md-4 col-sm-12">
-        <img src="images/pic-02.png" class="card-img-top" alt="...">
-        <div class="card-body">
-            <h3 class="card-title">Точные науки</h3>
-          <p class="card-text">Математика, физика, химия...Весь материал собран на портале "Электронная библиотека"</p>
-        </div>
-      </div>
-      <div class="card col-md-4 col-sm-12">
-        <img src="images/pic-03.png" class="card-img-top" alt="...">
-        <div class="card-body">
-            <h3 class="card-title">Иллюстрации</h3>
-          <p class="card-text">Интересна фотография? Загляните к нам и оцените труды мировых фотографов</p>
-        </div>
-      </div>
-    </div>
-    </div>
     <!-- card end -->
+
+  <!-- books start -->
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="text=uppercase">Популярные книги</h2>
+        <p>На сайте Электронной библиотеки собрано более тысячи книг</p>
+      </div>
+      <div class="row">
+        <div class="col-md-2 col-sm-12">
+          <div class="card border-0">
+            <img src="images/books/book-01.jpg" alt="book1" class="w-100" >
+            <div class="card-body p-0 pt-3">
+              <h3 class="card-title text-uppercase">Алгебра 7 Класс</h3>
+              <p class="card-text category">Школьные предметы</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-12">
+          <div class="card border-0">
+            <img src="images/books/book-02.jpg" alt="book2" class="w-100" >
+            <div class="card-body p-0 pt-3">
+              <h3 class="card-title text-uppercase">Всеобщая история</h3>
+              <p class="card-text category">Школьные предметы</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-12">
+          <div class="card border-0">
+            <img src="images/books/book-03.jpg" alt="book3" class="w-100" >
+            <div class="card-body p-0 pt-3">
+              <h3 class="card-title text-uppercase">Гарри Поттер</h3>
+              <p class="card-text category">Художественная литература</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-12">
+          <div class="card border-0">
+            <img src="images/books/book-04.jpg" alt="book4" class="w-100" >
+            <div class="card-body p-0 pt-3">
+              <h3 class="card-title text-uppercase">Создание веб-сайта</h3>
+              <p class="card-text category">"Для чайников"</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-12">
+          <div class="card border-0">
+            <img src="images/books/book-05.jpg" alt="book5" class="w-100" >
+            <div class="card-body p-0 pt-3">
+              <h3 class="card-title text-uppercase">Английский язык</h3>
+              <p class="card-text category">Справочники</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-12">
+          <div class="card border-0">
+            <img src="images/books/book-06.jpg" alt="book6" class="w-100" >
+            <div class="card-body p-0 pt-3">
+              <h3 class="card-title text-uppercase">Руководство HTML/CSS</h3>
+              <p class="card-text category">Справочники</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- books end -->
+
+  <!-- map start -->
+  <div class="row mt-5 mb-5" id="map">
+    <div class="col-12">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2323.71839102343!2d48.60814621584692!3d54.37962498020857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x415d3f1b8b2d409b%3A0x15d5407b8ea01f69!2z0JvRjNCy0L7QstGB0LrQuNC5INCxLdGALCA1LCDQo9C70YzRj9C90L7QstGB0LosINCj0LvRjNGP0L3QvtCy0YHQutCw0Y8g0L7QsdC7LiwgNDMyMDYz!5e0!3m2!1sru!2sru!4v1653501464292!5m2!1sru!2sru" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  <!-- map end -->
+
+  <!-- footer start -->
+  <footer>
+  <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-12">
+          <h3>Контактная информация</h3>
+          <p>г. Ульяновск <br>Бульвар Львовский 5</p>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <h3>Основное меню</h3>
+          <ul>
+            <li> <a href="#">Главная</a></li>
+            <li> <a href="#">Новости</a></li>
+            <li> <a href="#">Каталог</a></li>
+            <li> <a href="#">Личный кабинет</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <h3>Цитаты великих писателей</h3>
+          <p>Кто хочет приносить пользу, тот даже со <br> связанными руками может сделать <br> много добра <br>Ф.Достоевский</p>
+        </div>
+      </div>
+  </div>
+  </footer>
+  <!-- dooter and -->
 
 
 
